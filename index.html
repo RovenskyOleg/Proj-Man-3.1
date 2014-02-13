@@ -15,62 +15,10 @@
         <script src="https://code.jquery.com/jquery.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/underscore.min.js"></script>
     </head>
     
     <body>
-         <div class = "container-fluid main-container"> 
-            <div class = "navbar navbar-default">
-                <a class = "navbar-brand" href="#">Logo</a>
-
-                <ul class = "nav navbar-nav pull-right">
-                   
-                    <li class = "li-hover"><a href="#">N Last name</a></li>
-                    <li class = "li-hover"><a href="#"><span class="bord square glyphicon glyphicon-wrench"></span></a></li>
-                    <li class = "divider-vertical"></li>
-                    <li class = "li-hover"><a href="#">LogOut</a></li>
-                </ul>
-            </div>
-            
-            <div class = "container-fluid info">
-                <div class = "row-fluid">
-                    <div class = "col-xs-3 col-md-3 project-info">
-                      Project info
-                    </div>
-
-                    <div class = "col-xs-8 col-md-9 projects">
-                        <div class = "navbar navbar-default header-project navbar-inner-castom">
-                                <ul class = "nav navbar-nav">
-                                    <li><a href="#">My Projects</a></li>
-                                </ul>
-                                
-                                <ul class = "nav navbar-nav pull-right">
-                                    <li class = ""><a href="#"><span class="bord square glyphicon glyphicon-plus"></span></a></li>
-                                </ul>
-                        </div>
-
-                        <div class = "content-projects">
-                            <div class = "row">
-                                <div class = "col-xs-5 col-md-3 col-md-offset-1 text-center project">Project name</div>
-                                <div class = "col-xs-5 col-md-3 text-center project">Project name</div>
-                                <div class = "col-xs-5 col-md-3 text-center project">Project name</div>
-                            </div>
-
-                            <div class = "row">
-                                <div class = "col-xs-5 col-md-3 col-md-offset-1 text-center project">Project name</div>
-                                <div class = "col-xs-5 col-md-3 text-center project">Project name</div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class = "space"></div>
-
-         <div class = "container-fluid main-container"> 
+        <div class = "main-container"> 
             <div class = "navbar navbar-inverse">
                 <a class = "navbar-brand" href="#">Logo</a>
 
@@ -78,45 +26,55 @@
                    
                     <li class = "li-hover"><a href="#">N Last name</a></li>
                     <li class = "li-hover"><a href="#"><span class="bord square glyphicon glyphicon-wrench"></span></a></li>
-                    <li class = "divider-vertical"></li>
+                    <li class = "divider-vertical-gray"></li>
                     <li class = "li-hover"><a href="#">LogOut</a></li>
                 </ul>
             </div>
             
-            <div class = "container-fluid info">
-                <div class = "row-fluid">
-                    <div class = "col-xs-3 col-md-3 project-info">
-                      Project info
+            <div id = "content-project">
+                <div class = "project-info navbar-left">
+                    <div class = "head">Project info</div>
+                </div>
+
+                <div class = "projects navbar-right">
+                    <div class = "border-top"></div>
+                    <div class = "border-right"></div> 
+                    <div class = "photo"></div>          
+                    <div class = "border-left"></div>
+                    
+                    <div class = "navbar navbar-inverse header-project">
+                        <ul class = "nav navbar-nav">
+                            <li class = "li-hover"><a href="#">My Projects</a></li>
+                        </ul>
+                        
+                        <ul class = "nav navbar-nav pull-right">
+                            <li class = "li-hover"><a href="#"><span class="glyphicon glyphicon-plus"></span></a></li>
+                        </ul>
                     </div>
 
-                    <div class = "col-xs-8 col-md-9 projects">
-                        <div class = "navbar navbar-inverse header-project navbar-inner-castom">
-                                <ul class = "nav navbar-nav">
-                                    <li><a href="#">My Projects</a></li>
-                                </ul>
-                                
-                                <ul class = "nav navbar-nav pull-right">
-                                    <li class = ""><a href="#"><span class="bord square glyphicon glyphicon-plus"></span></a></li>
-                                </ul>
+                    <div id = "list-projects">
+                        <div class = "scroll">
+                            <div class = "text-center project">Project name</div>
+                            <div class = "text-center project">Project name</div>
+                            <div class = "text-center project">Project name</div>
+                      
+                            <div class = "text-center project">Project name</div>
+                            <div class = "text-center project">Project name</div>
+                             <div class = "text-center project">Project name</div>
+                            <div class = "text-center project">Project name</div>
+
+                              <div class = "text-center project">Project name</div>
+                            <div class = "text-center project">Project name</div>
+                            <div class = "text-center project">Project name</div>
+                            <div class = "text-center project">Project name</div>
                         </div>
-
-                        <div class = "content-projects">
-                            <div class = "row">
-                                <div class = "col-xs-5 col-md-3 col-md-offset-1 text-center project">Project name</div>
-                                <div class = "col-xs-5 col-md-3 text-center project">Project name</div>
-                                <div class = "col-xs-5 col-md-3 text-center project">Project name</div>
-                            </div>
-
-                            <div class = "row">
-                                <div class = "col-xs-5 col-md-3 col-md-offset-1 text-center project">Project name</div>
-                                <div class = "col-xs-5 col-md-3 text-center project">Project name</div>
-                            </div>
-                        </div>
-
+                        <div class = "border-bottom"></div>     
+                        <div class = "case"></div> 
                     </div>
                 </div>
             </div>
-        </div>             
-  </body>
+        </div>
+    </body>
 </html>
+
 
